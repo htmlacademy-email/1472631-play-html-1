@@ -38,6 +38,10 @@
           line-height: 150% !important
         }
 
+        .width-adaptive {
+        width: 100% !important;
+      }
+
         .webversion, .web-version-link {
           font-size: 11px !important;
           line-height: 13px !important;
@@ -77,15 +81,13 @@
         width: 100% !important
       }
 
-      .content table,
-      .content {
-        width: 100% !important;
-        max-width: 600px !important
-      }
-
       .adaptive-img {
         width: 100% !important;
-        height: auto !important
+        height: auto !important;
+      }
+
+      .mobile-center {
+        align: center !important;
       }
 
       .mobile-content-p16l {
@@ -129,7 +131,7 @@
           <td>
 
             <table cellpadding="0" cellspacing="0" class="content" align="center"
-            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;table-layout:fixed !important;width:100%;max-width: 568px;padding-left: 16px;padding-right: 16px;">
+            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;table-layout:fixed !important;width:100%;max-width: 600px;padding-left:16px;padding-right: 16px;">
               <tr>
                 <td align="center" style="padding:0;Margin:0;">
 
@@ -137,7 +139,7 @@
             <!--Веб-версия письма-->
 
             <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-            "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+            "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
               <tr>
                 <td align="center" bgcolor=";#E5E5E5" style="Margin:0;padding-top:24px;padding-bottom:16px;background-color: #E5E5E5;">
 
@@ -157,7 +159,7 @@
               <tr>
                 <td>
                   <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                     <tr>
                       <td align="center" style="Maragin:0;padding-top:32px;padding-bottom:16px;background-color:#FFFFFF;font-size:0px;">
                         <a href="https://htmlacademy.ru/" target="_blank" title="Переход на главную страницу">
@@ -179,7 +181,7 @@
               <tr>
                 <td>
                   <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
 
                     <tr>
                       <td align="center">
@@ -213,13 +215,13 @@
               <tr>
                 <td>
                   <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                     <tr>
                       <td align="left" style="Margin:0;padding:0;background-color:#FFFFFF">
                         <!--[if mso]><table style="width:568px" cellpadding="0"
                         cellspacing="0"><tr><td style="width:200px" valign="top"><![endif]-->
-                        <table align="left" cellspacing="0" cellpadding="0" border="0" 
-                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;padding-left:8px;">
+                        <table class="width-adaptive" align="left" cellspacing="0" cellpadding="0" border="0" 
+                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;padding-left: 8px;padding-right: 8px;">
 
                         <tr>
                           <td align="center" style="Margin:0;padding:0;width:200px;background-color:#FF4B33;border-radius:5px;">
@@ -248,7 +250,7 @@
             
                           <tr>
                             <td align="center" style="padding-top:16px;padding-bottom:25px;">
-                              <span class="button-border" style="border-style:solid;background:#FFB500;border-width:0px;display:inline-block;border-radius:5px;width:auto;">
+                              <span class="button-border" style="border-style:solid;background:#FFB500;border-width:0px;display:inline-block;border-radius:5px;width:auto;max-width: 128px;">
                               <a href="https://htmlacademy.ru/vebinar/about" target="_blank" title="На вебинар"
                               style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;
                               -ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
@@ -263,15 +265,15 @@
                         </tr>
 
                         </table>
-                        <!--[if mso]></td><td style="width:0px"></td><td style="width:360px" valign="top"><![endif]-->
-                        <table align="right" cellspacing="0" cellpadding="0" border="0"
+                        <!--[if mso]></td><td style="width:0px"></td><td style="width:352px" valign="top"><![endif]-->
+                        <table class="width-adaptive" align="right" cellspacing="0" cellpadding="0" border="0"
                         style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
                           <tr>
-                            <td align="left" style="Margin:0;padding:0;width:360px;">
-                              <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
+                            <td align="left" style="Margin:0;padding:0;width:352px;">
+                              <table cellpadding="0" width="100%" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;">
                                 <tr>
                                   <td>
-                                    <img class="adaptive-img" src="https://raw.githubusercontent.com/Juriy-Zakharov/1472631-play-html-1/module2-task2/1-invitation/img/illustration-1.png" alt="Научитесь фронтенд-разработке" width="352" height="286" border="0"
+                                    <img class="adaptive-img" src="https://raw.githubusercontent.com/Juriy-Zakharov/1472631-play-html-1/module2-task2/1-invitation/img/illustration-1.png" alt="Научитесь фронтенд-разработке" width="352" height="297" border="0"
                                     style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
                                   </td>
                                 </tr>
@@ -296,7 +298,7 @@
                 <td>
 
                   <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;padding-top:32px;">
+                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;padding-top:32px;">
                     <tr>
                       <td align="left" background="#0B379B" style="Margin:0;padding:0;padding-left:16px;padding-right:16px;background-color:#0B379B;">
 
@@ -390,7 +392,7 @@
                 <td>
                   
                   <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                     <tr>
                       <td align="center" style="Margin:0;padding:0;background-color:#FFFFFF;">
 
@@ -432,13 +434,13 @@
       
                         <tr>
                           <td align="center" style="Margin:0;padding:0;padding-top:24px;background-color:#FFFFFF;padding-left:41px;padding-right:41px;">
-                            <span class="button-border" style="border-style:solid;background:#FF4B33;border-width:0px;display:inline-block;border-radius:5px;width:auto;">
+                            <span class="button-border" style="border-style:solid;background:#FF4B33;border-width:0px;display:inline-block;border-radius:5px;">
                             <a href=https://htmlacademy.ru/vebinar/about" target="_blank" title="Зарегистрироваться на вебинар"
                             style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;
                             -ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
                             font-size:18px;border-style:solid;color:#FFFFFF;border-color:#FF4B33;border-width:8px 16px;
                             display:inline-block;background:#FF4B33;border-radius:5px;font-weight:normal;font-style:normal;
-                            line-height:21px;width:auto;text-align:center;">Зарегистрироваться на вебинар</a>
+                            line-height:21px;text-align:center;">Зарегистрироваться на вебинар</a>
                             </span>
                           </td>
                         </tr>
@@ -461,7 +463,7 @@
                   <td>
                     
                     <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                    "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;padding-top:16px;">
+                    "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;padding-top:16px;">
                       <tr>
                         <td align="center" style="Margin:0;padding:0;font-size:0px;background-color:#FFFFFF">
                           <img src="https://raw.githubusercontent.com/Juriy-Zakharov/1472631-play-html-1/module2-task2/1-invitation/img/illustration-1.1.png" alt="Ценные призы" width="278" height="278" border="0" 
@@ -481,7 +483,7 @@
               <tr>
                 <td>
                   <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                  "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
 
                     <tr>
                       <td align="center" style="Margin:0;padding:0;background-color:#FFFFFF">
@@ -534,7 +536,7 @@
                 <tr>
                   <td align="center" style="padding:0;Margin:0;">
                     <table class="content-body" bgcolor="#FFFFFF;" align="center" cellpadding="0" cellspacing="0" 
-                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
 
                     <tr>
                       <td align="left" bgcolor="#ffffff" style="Margin:0;;padding:0;">
@@ -829,7 +831,7 @@
               <!--Текст за подвалом-->
 
               <table class="content-body" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style=
-              "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+              "mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;">
                 <tr>
                   <td align="left" bgcolor="#E5E5E5" style="Margin:0;background-color: #E5E5E5;padding-top:56px;padding-bottom: 32px;">
                     <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;
